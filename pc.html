@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPS Supaul</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+            background-color: lightgreen;
+        }{
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      margin: 10px;
+      padding: 5px;
+    }
+
+    .hero {
+      background-image: url('school-image.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 100px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="hero">
+        <h1 style="color: red;">Welcom to DPS Supaul</h1>
+        <p style="color: blue;">Prepare for success, embrace diversity, and foster a love for learning</p>
+        <a href="#admissions" class="cta-button">Apply Now</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <img src="data:image/jpeg;base64,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" alt="School Image"> <width="300" height="200">
+        <p>DPS Marich Supaul, also known as Delhi Public School Marich Supaul, is an educational institution located in Supaul, Bihar, India. It is a branch of the renowned Delhi Public School Society, which is known for its commitment to providing quality education.
+
+DPS Marich Supaul follows the Central Board of Secondary Education (CBSE) curriculum, which is one of the most popular and recognized educational boards in India. The school aims to provide a holistic and comprehensive education to its students, focusing on academic excellence as well as the development of character, critical thinking skills, and social responsibility.
+
+The school offers education from the primary level to the higher secondary level. It provides a wide range of subjects and disciplines, including languages, sciences, mathematics, social sciences, and fine arts. The curriculum is designed to foster intellectual growth, creativity, and a well-rounded education.
+
+Apart from academics, DPS Marich Supaul also emphasizes co-curricular and extracurricular activities. The school encourages students to participate in sports, cultural events, debates, quizzes, and various clubs and societies. These activities help in the overall development of students' personalities, promoting teamwork, leadership skills, and enhancing their talents and interests.
+
+The infrastructure of DPS Marich Supaul is well-maintained, providing a conducive learning environment for students. The school is equipped with modern classrooms, well-equipped science and computer laboratories, a library, sports facilities, and other necessary amenities.
+
+The faculty at DPS Marich Supaul consists of highly qualified and experienced teachers who are dedicated to nurturing the students' intellectual and personal growth. They employ innovative teaching methods and approaches to make learning engaging and effective.
+
+DPS Marich Supaul aims to create responsible global citizens who are well-prepared for higher education and equipped with the necessary skills to thrive in the rapidly changing world. The school focuses on instilling values such as integrity, compassion, and respect for others, while fostering a love for learning and a spirit of inquiry.
+
+Overall, DPS Marich Supaul strives to provide a well-rounded educational experience that prepares students academically, socially, and emotionally, enabling them to excel in their future endeavors..</p>
+      </div>
+    </section>
+
+    <section id="programs">
+      <div class="container">
+        <h2>Our Programs</h2>
+        <ul>
+          <li>Program 1 Academic Programs: These are the core programs that cover subjects such as mathematics, science, language arts, social studies, and foreign languages. Academic programs aim to provide students with a well-rounded education and develop their knowledge and skills in various disciplines.</li>
+          <li>Program 2 Enrichment programs offer additional learning opportunities beyond the regular curriculum. These programs can include field trips, guest speakers, workshops, cultural exchange programs, and competitions. Enrichment programs aim to broaden students' horizons, expose them to new experiences, and encourage lifelong learning.</li>
+          <li>Program 3 Our schools offer specialized programs tailored to specific subjects or areas of interest. These can include STEM (Science, Technology, Engineering, and Mathematics) programs, gifted and talented programs, vocational programs, international baccalaureate programs, or programs focused on specific fields such as fine arts, performing arts, or sports.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <div class="container">
+        <h2>Admissions</h2>
+        <p>Apply now to join our school and unlock your potential.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries or further information.</p>
+        <p>Email: dpssupaul@gmail.com </p>
+        <p>Phone: 7070294419 </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; DPS supaul. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
